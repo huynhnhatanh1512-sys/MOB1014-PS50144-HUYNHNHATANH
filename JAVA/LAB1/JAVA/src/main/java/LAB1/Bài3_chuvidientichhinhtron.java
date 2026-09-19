@@ -17,6 +17,11 @@ public class Bài3_chuvidientichhinhtron {
         final double PI =3.14159;
         double r,cv,dt;
         System.out.print("ban kinh hinh tron: ");
-        
-    }
+        r = sc.nextDouble();
+        cv = 2 * PI * r;
+        dt = PI * r * r;
+        System.out.printf("Chu vi hinh tron: %.2f\n", cv);
+        System.out.printf("Dien tich hinh tron: %.2f\n", dt);
+        sc.close();
+     }
 }
